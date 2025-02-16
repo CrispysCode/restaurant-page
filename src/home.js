@@ -1,4 +1,5 @@
 import logoImg from "../images/tokyo.png";
+import "./styles/styles.css"
 export function homeModule() {
     const headerEl = document.querySelector("header");
     const content = document.querySelector("#content");
