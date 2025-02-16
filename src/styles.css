@@ -34,8 +34,32 @@ button {
     justify-content: center;
     
 }
+.body-container {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
 
+.body-container > p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 24px;
+}
 .logo {
-    width: 100%;
+    width: 600px;
     height: 500px;
+}
+
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 214px;
+   color: white;
+   background-color: black;
+}
+
+footer > p{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
